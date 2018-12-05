@@ -3,7 +3,7 @@
     <title>App Name - @yield('title')</title>
 </head>
 <body>
-@include('frontend.layouts.header')
+@include('frontend.partials.header')
 
 @section('sidebar')
     đây là nội dung sidebar của layout main
@@ -13,6 +13,6 @@
     @yield('content')
 </div>
 
-@include('frontend.layouts.footer')
+@include('frontend.partials.footer')
 </body>
 </html>

@@ -10,6 +10,6 @@ class Index extends Controller
     //
     public function index() {
         $data = array();
-        return view('frontend.index', $data);
+        return view('frontend.index.index', $data);
     }
 }
