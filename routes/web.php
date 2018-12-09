@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'Frontend\Index@index');
+Route::get('/about', 'Frontend\About@index');
+Route::get('/contact', 'Frontend\Contact@index');
 
 Route::get('/backend', 'Backend\Index@index');
 

@@ -6,10 +6,6 @@
 <body>
 @include('frontend.partials.header')
 
-@section('sidebar')
-    đây là nội dung sidebar của layout main
-@show
-
 <div class="container">
     @yield('content')
 </div>
